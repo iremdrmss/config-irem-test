@@ -2,6 +2,6 @@ application:
   conversation-share:
     open-count: 5
 user-data-config:
-  enabled: false
+  enabled: true
   instance-name: "USER_DATA"
   profile: "prod"
