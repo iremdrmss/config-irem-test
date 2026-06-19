@@ -1,0 +1,40 @@
+application.conversation-share.open-count:
+  configValueCount: "SINGLE"
+  configValueType: "LONG"
+  displayName: "Conversation Share Open Count"
+  description: "Maximum number of times a shared conversation link can be opened"
+  sectionName: "CONVERSATION_SHARE_OPEN_COUNT"
+  encrypted: false
+  rule: null
+  restartRequired: false
+  defaultValue: 5
+user-data-config.enabled:
+  configValueCount: "SINGLE"
+  configValueType: "BOOLEAN"
+  displayName: "User Data Config Enabled"
+  description: "User Data Config Enabled"
+  sectionName: "USER_DATA"
+  encrypted: false
+  rule: null
+  restartRequired: false
+  defaultValue: false
+user-data-config.instance-name:
+  configValueCount: "SINGLE"
+  configValueType: "STRING"
+  displayName: "User Data Config Instance Name"
+  description: "User Data Config Instance Name"
+  sectionName: "USER_DATA"
+  encrypted: false
+  rule: null
+  restartRequired: false
+  defaultValue: "USER_DATA"
+user-data-config.profile:
+  configValueCount: "SINGLE"
+  configValueType: "STRING"
+  displayName: "User Data Config Profile"
+  description: "User Data Config Profile"
+  sectionName: "USER_DATA"
+  encrypted: false
+  rule: null
+  restartRequired: false
+  defaultValue: "prod"
